@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>
+      Elementary
+    </title>
+    
+    <style>
+      
+      body {
+        background-image:url("School.jpg") ;
+        font-family: Arial, Helvetica, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+    
+      .banner {
+        background-image: url("Aesthetic.webp");
+        padding: 2px;
+        border-radius: 45px;
+      }
+    
+      .banner_text {
+        font-weight: 100;
+        text-align: center;
+        color: rgb(0,255,255);
+        text-shadow: #808080 4px 3px 0;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #F8C8DC;
+        display: FLEX;
+        justify-content: center;
+        
+      }
+      .navbar a {
+        float: left;
+        font-size: 20px;
+        color: purple;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 20px;  
+        border: none;
+        outline: none;
+        color: purple;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0 50px 0 50px;
+        text-align: center;
+      }
+
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: violet;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #FF00FF;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #FFFF00;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+     
+
+     #footer {
+            text-align: center;
+            background-color: #FAAFBA;
+            left: 0;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+
+        #footer p {
+            padding: 0px;
+            margin: 5px 0 0 0 ;
+        }
+
+        #Icons {
+            width: 50px;
+            padding: 5px;
+        }
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="banner">
+      <div class="banner_text">
+        <h1>WELCOME TO MY SITE.  WHAT'S UP?</h1>
+		<!-- or <img src="#"> for image text -->
+      </div>  
+    </div>
+    <div class="navbar">
+      <a href="Personal Website.html">Home</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Personal 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="PersonalData.html">Personal Data</a>
+          <a href="AboutMe.html">About Me</a>
+          <a href="Interests.html">Interests</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Education 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Elementary.html">Grade School</a>
+          <a href="HighSchool.html">High School</a>
+          <a href="College.html">College</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Family 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Parents.html">Parents</a>
+          <a href="Siblings.html">Siblings</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Friends 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Childhood.html">Childhood</a>
+          <a href="School.html">School</a>
+          <a href="Acquaintance.html">Intimate</a>
+        </div>
+      </div> 
+
+       <div class="dropdown">
+        <button class="dropbtn">Gallery 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Photos.html">Pictures</a>
+          <a href="Videos.html">Videos</a>
+        </div>
+      </div> 
+     
+      <div class="dropdown">
+      
+<button class="dropbtn">I.T. 306 Activities
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://drive.google.com/file/d/1opQS74kWCjgVScM3FdarIzYuSsJvy95s/view" target="_blank">MP1</a>
+          <a href="https://drive.google.com/file/d/15zSYFb-0GZClorU1ZBMjICs9KWB5ltEv/view" target="_blank">MP2</a>
+          <a href="https://drive.google.com/file/d/1d-I_ZIis9_GkySs6Sh-0KDJ73Qn-CWE9/view" target="_blank">MP3</a>
+          <a href="https://drive.google.com/file/d/1sxx6nFOoi9yxMVGqeAsJkztFmaRWA7Kk/view" target="_blank">MP4</a>
+          <a href="https://drive.google.com/file/d/13y8qjZfyd7y_bw2Nuw6uucjDLupNiy0n/view" target="_blank">MP5</a>
+          <a href="https://drive.google.com/file/d/1KowK1q1TLrEp1aMo-W3_rZ1fIG2BGYWO/view" target="_blank">MP6</a>
+          <a href="https://drive.google.com/file/d/1GkRzpqtS24arMwwaj_0d7RIs_yHlJdB6/view" target="_blank">MP7</a>
+
+
+        </div>
+      </div> 
+
+    </div>
+    </center>
+
+
+<center><font size="100px" face="algerian" color="black"><b>ELEMENTARY SCHOOL</b></font></center><br><br><br>
+
+
+
+<table border =8 bordercolor= dark brown align =center cellspacing=2 cellpadding=6>
+
+<tr bgcolor=green>
+
+<td>
+
+<a href="http://sampalocsite2.depedparanaquecity.com/"target="_blank">
+<img src="ELEMLOGO.jpg" width="190" height= 200 hspace = 20 align = center border="0"/>
+</a>
+
+
+</td>
+
+<td>
+<br><br>
+<font size= "5" face= "arial" color="white">
+   <p style= "text-align:justify" margin>
+
+<style>
+    p{
+      text-indent:50px;
+     }
+</style>
+
+<h2>SAMPALOC SITE 2 ELEMENTARY SCHOOL <BR> (2008-2013)</h2>
+     I have studied at this school for 6 years and it has been a great start for me as a beginner in pursuing my Primary Education. I might be shy and too quiet that time, but it has been a fresh and magnificent start after all. I am an honor student from grades 1 to 3 and a consistent star section student (section 1).<br>
+      <<(Click Logo to see the School Site)
+    </p>
+    </font><br><br><br><br>
+
+
+</body>
+
+</html>

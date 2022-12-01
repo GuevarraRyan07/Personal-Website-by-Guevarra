@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>
+      Personal Website by Guevarra
+    </title>
+    
+    <style>
+      
+      body {
+        background-image:url("Artsy.gif") ;
+        font-family: Arial, Helvetica, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+    
+      .banner {
+        background-image: url("Aesthetic.webp");
+        padding: 2px;
+        border-radius: 45px;
+      }
+    
+      .banner_text {
+        font-weight: 100;
+        text-align: center;
+        color: rgb(0,255,255);
+        text-shadow: #808080 4px 3px 0;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #F8C8DC;
+        display: FLEX;
+        justify-content: center;
+        
+      }
+      .navbar a {
+        float: left;
+        font-size: 20px;
+        color: purple;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 20px;  
+        border: none;
+        outline: none;
+        color: purple;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0 50px 0 50px;
+        text-align: center;
+      }
+
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: violet;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #FF00FF;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #FFFF00;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+     
+
+     #footer {
+            text-align: center;
+            background-color: #FAAFBA;
+            left: 0;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+
+        #footer p {
+            padding: 0px;
+            margin: 5px 0 0 0 ;
+        }
+
+        #Icons {
+            width: 50px;
+            padding: 5px;
+        }
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="banner">
+      <div class="banner_text">
+        <h1>WELCOME TO MY SITE.  WHAT'S UP?</h1>
+		<!-- or <img src="#"> for image text -->
+      </div>  
+    </div>
+    <div class="navbar">
+      <a href="Personal Website.html">Home</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Personal 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="PersonalData.html">Personal Data</a>
+          <a href="AboutMe.html">About Me</a>
+          <a href="Interests.html">Interests</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Education 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Elementary.html">Grade School</a>
+          <a href="HighSchool.html">High School</a>
+          <a href="College.html">College</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Family 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Parents.html">Parents</a>
+          <a href="Siblings.html">Siblings</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Friends 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Childhood.html">Childhood</a>
+          <a href="School.html">School</a>
+          <a href="Acquaintance.html">Intimate</a>
+        </div>
+      </div> 
+
+       <div class="dropdown">
+        <button class="dropbtn">Gallery 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Photos.html">Pictures</a>
+          <a href="Videos.html">Videos</a>
+        </div>
+      </div> 
+     
+      <div class="dropdown">
+      
+<button class="dropbtn">I.T. 306 Activities
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://drive.google.com/file/d/1opQS74kWCjgVScM3FdarIzYuSsJvy95s/view" target="_blank">MP1</a>
+          <a href="https://drive.google.com/file/d/15zSYFb-0GZClorU1ZBMjICs9KWB5ltEv/view" target="_blank">MP2</a>
+          <a href="https://drive.google.com/file/d/1d-I_ZIis9_GkySs6Sh-0KDJ73Qn-CWE9/view" target="_blank">MP3</a>
+          <a href="https://drive.google.com/file/d/1sxx6nFOoi9yxMVGqeAsJkztFmaRWA7Kk/view" target="_blank">MP4</a>
+          <a href="https://drive.google.com/file/d/13y8qjZfyd7y_bw2Nuw6uucjDLupNiy0n/view" target="_blank">MP5</a>
+          <a href="https://drive.google.com/file/d/1KowK1q1TLrEp1aMo-W3_rZ1fIG2BGYWO/view" target="_blank">MP6</a>
+          <a href="https://drive.google.com/file/d/1GkRzpqtS24arMwwaj_0d7RIs_yHlJdB6/view" target="_blank">MP7</a>
+
+
+        </div>
+      </div> 
+
+    </div>
+    </center>
+      <center><br><br>
+          <img style="border:15px solid purple;" 
+           src="pink.gif"><br><br>
+
+       <table border =8 bordercolor= purple align =center cellspacing=2 cellpadding=6>
+
+<tr bgcolor=violet>
+
+<td>
+
+<img src="guev4.jpg" width="190" height= 200 hspace = 20 align = center border="0" />
+
+
+</td>
+
+<td>
+<br><br>
+<font size= "5" face= "arial" color="purple">
+   <p style= "text-align:justify" margin>
+
+<style>
+    p{
+      text-indent:50px;
+     }
+</style>
+
+<h2>From the Creator:</h2>
+   This custom-made site was created and built by the creator , Ryan Guevarra. This site is filled with personal information, facts, images and videos of the creator. This site is meant for educational purposes and a ground for learning application at the same time. I am so glad that I was able to apply and express every lesson I have gained from our subject, Web Development. Enjoy and Have a great time exploring!
+    </p>
+    </font><br><br><br><br>
+
+
+<div id="footer">
+            <B><p>Hola! this is Ryan, the creator of this site.<br>For more suggestions, kindly reach me out thru the following:</p></B>
+            <a href="https://www.facebook.com/ambitiouslamb2002/"target="_blank">
+            <img id="Icons" src="fbicon.png"></a>
+            
+            <a href="https://www.instagram.com/young_gueva07/"target="_blank">
+            <img id="Icons" src="instaicon.png"></a>
+             
+            <a href="https://mail.google.com/mail/u/0/?tab=im#inbox"target="_blank">
+            <img id="Icons" src="gmailicon.png"></a>
+           
+
+
+</td>
+
+</tr><br>
+  </body>
+
+</html>
+

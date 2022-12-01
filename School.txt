@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>
+      School
+    </title>
+    
+    <style>
+      
+      body {
+        background-image:url("Class.gif") ;
+        font-family: Arial, Helvetica, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+    
+      .banner {
+        background-image: url("Aesthetic.webp");
+        padding: 2px;
+        border-radius: 45px;
+      }
+    
+      .banner_text {
+        font-weight: 100;
+        text-align: center;
+        color: rgb(0,255,255);
+        text-shadow: #808080 4px 3px 0;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #F8C8DC;
+        display: FLEX;
+        justify-content: center;
+        
+      }
+      .navbar a {
+        float: left;
+        font-size: 20px;
+        color: purple;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 20px;  
+        border: none;
+        outline: none;
+        color: purple;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0 50px 0 50px;
+        text-align: center;
+      }
+
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: violet;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #FF00FF;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #FFFF00;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+     
+
+     #footer {
+            text-align: center;
+            background-color: #FAAFBA;
+            left: 0;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+
+        #footer p {
+            padding: 0px;
+            margin: 5px 0 0 0 ;
+        }
+
+        #Icons {
+            width: 50px;
+            padding: 5px;
+        }
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="banner">
+      <div class="banner_text">
+        <h1>WELCOME TO MY SITE.  WHAT'S UP?</h1>
+		<!-- or <img src="#"> for image text -->
+      </div>  
+    </div>
+    <div class="navbar">
+      <a href="Personal Website.html">Home</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Personal 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="PersonalData.html">Personal Data</a>
+          <a href="AboutMe.html">About Me</a>
+          <a href="Interests.html">Interests</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Education 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Elementary.html">Grade School</a>
+          <a href="HighSchool.html">High School</a>
+          <a href="College.html">College</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Family 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Parents.html">Parents</a>
+          <a href="Siblings.html">Siblings</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Friends 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Childhood.html">Childhood</a>
+          <a href="School.html">School</a>
+          <a href="Acquaintance.html">Intimate</a>
+        </div>
+      </div> 
+
+       <div class="dropdown">
+        <button class="dropbtn">Gallery 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Photos.html">Pictures</a>
+          <a href="Videos.html">Videos</a>
+        </div>
+      </div> 
+     
+      <div class="dropdown">
+      
+<button class="dropbtn">I.T. 306 Activities
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://drive.google.com/file/d/1opQS74kWCjgVScM3FdarIzYuSsJvy95s/view" target="_blank">MP1</a>
+          <a href="https://drive.google.com/file/d/15zSYFb-0GZClorU1ZBMjICs9KWB5ltEv/view" target="_blank">MP2</a>
+          <a href="https://drive.google.com/file/d/1d-I_ZIis9_GkySs6Sh-0KDJ73Qn-CWE9/view" target="_blank">MP3</a>
+          <a href="https://drive.google.com/file/d/1sxx6nFOoi9yxMVGqeAsJkztFmaRWA7Kk/view" target="_blank">MP4</a>
+          <a href="https://drive.google.com/file/d/13y8qjZfyd7y_bw2Nuw6uucjDLupNiy0n/view" target="_blank">MP5</a>
+          <a href="https://drive.google.com/file/d/1KowK1q1TLrEp1aMo-W3_rZ1fIG2BGYWO/view" target="_blank">MP6</a>
+          <a href="https://drive.google.com/file/d/1GkRzpqtS24arMwwaj_0d7RIs_yHlJdB6/view" target="_blank">MP7</a>
+
+
+        </div>
+      </div> 
+
+    </div>
+    </center>
+
+<br><br>
+<center><font size="100px" face="algerian" color="yellow"><b>MY SCHOOL FRIENDS</b></font></center>
+
+<center>
+<h1 style="background-color:Gold;">Put the cursor on each photo to see details.</h1></center>
+<center>
+<br><br><br>
+    <img
+  src="Schoolmates1.jpg"
+  alt="Grade 6-Rizal Class Picture, 2014"
+  width="300"
+  height="300"
+  title="Grade 6-Rizal Class Picture, 2014" />
+
+ <img
+  src="Schoolmates2.jpg"
+  alt="Political Science Buddies, 2021" 
+  width="300"
+  height="300"
+  title="Political Science Buddies, 2021" />
+
+ <img
+  src="Schoolmates3.jpg"
+  alt="Grade 11 Groufie, 2018"
+  width="300"
+  height="300"
+  title="Grade 11 Groufie, 2018" />
+
+ <img
+  src="Schoolmates4.jpg"
+  alt="Grad Pic Preparation, 2019"
+  width="300"
+  height="300"
+  title="Grad Pic Preparation, 2019" />
+
+ <img
+  src="Schoolmates5.png"
+  alt="IT Buddies, 2022"
+  width="300"
+  height="300"
+  title="IT Buddies, 2022" />
+
+ <img
+  src="Schoolmates6.jpg"
+  alt="Grade III-One Class Picture, 2011"
+  width="300"
+  height="300"
+  title="Grade III-One Class Picture, 2011" />
+
+ <img
+  src="Schoolmates7.jpg"
+  alt="Community Development Project, 2019"
+  width="300"
+  height="300"
+  title="Community Development Project, 2019" />
+
+ <img
+  src="Schoolmates8.jpg"
+  alt="The Standard Organization, since 2020"
+  width="300"
+  height="300"
+  title="The Standard Organization, since 2020" />
+<br><br>
+
+<font size= "5" face= "arial" color="black">
+   
+<style>
+    p{
+      text-align: justify;
+      text-justify: inter-word;
+     }
+</style> 
+
+<p style="background-color: gold;">
+<b>Making friends at school is perhaps one of the most crucial aspects of growing up, next to receiving an education. Making friends at school can help you stay inspired to go to class each day. You might feel lonely and that school is not a nice place to be if you don't have any pals there. You should have no trouble establishing friends if you follow these simple instructions.
+To begin with, the person should be friendly to everyone they meet at the school. Here, the proverb "don't judge a book by its cover" is applicable. They should keep in mind that they will discover students their age who share some of their They should keep in mind that they will discover students their age who share some of their interests at school. They should keep in mind not to stereotype people before meeting them. Never try to change who you are to fit in; always be yourself. They aren't really pals if their friends don't accept them for who they are. The majority of people fit into a particular group just by being who they are and because their distinct personalities and hobbies fit a particular stereotype.
+</b><br><br>
+<b>Since they were constantly preoccupied with their egos, the majority of my pals weren't particularly intellectually gifted, and this wasn't their fault. They didn't assist my condition because I was a completely different instance; I had a severe lack of confidence in practically anything I had done. I didn't put in much effort while I was still in high school. Teachers would frequently comment on how much better my grades would be if I simply showed up to class on a regular basis, both physically and mentally. I always ignored them, reasoning that as long as I stayed inside the boundaries, I would be alright. I reasoned to myself, "After all, I had successfully completed school using the same approach all these years; why wouldn't it work now?", Well until now still have that kind of mentality, but this time with proper handling and temperament. Everything can be fixed as long as you have yourself being around with the right people in the right time.
+</b></p>
+
+
+</body>
+
+</html>
